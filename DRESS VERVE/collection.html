@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!--My Css-->
+    <link rel="Stylesheet" href="style.css">
+    <!--Font Awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <script defer src="collection.js"></script>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1>Dress Verve</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="">Home</a></p>
+            <p class="navbar-link"><a href="">Collections</a></p>
+            <p class="navbar-link"><a href="">Contact</a></p>
+        </div>
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <!--toggle class-->
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!--Side navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()" >
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+    </div>
+    <!--Product-->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <div class="products" id="products">
+        <div class="product-box">
+            <img src="https://i0.wp.com/www.theunstitchd.com/wp-content/uploads/2016/02/WHITE-SHIRTS-FOR-MEN.jpg"  height="250px" width="200px">
+            <p>white Shirt</p>
+        </div>
+        <div class="product-box">
+            <img src="https://handcmediastorage.blob.core.windows.net/productimages/SE/SEPMA220-A01-128501-800px-1040px.jpg" height="250px" width="200px">
+            <p>black Shirt</p>
+        </div>
+        <div class="product-box">
+            <img src="https://images.bewakoof.com/original/men-s-pink-shirt-591809-1683535444-2.jpg"  height="250px" width="200px">
+            <p>pink Shirt</p>
+        </div>
+        <div class="product-box">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.K_fSfvd33d9424dQUZG1FQHaLH&pid=Api&P=0&h=180"  height="250px" width="200px">
+            <p>red Shirt</p>
+        </div>
+        <div class="product-box">
+            <img src="https://handcmediastorage.blob.core.windows.net/productimages/WE/WEPLV002-P01-129712-800px-1040px.jpg"  height="250px" width="200px">
+            <p>yellow Shirt</p>
+        </div>
+        <div class="product-box">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2022/6/LY/DF/RO/23924924/cotton-mens-plain-shirt-brown-1-copy-723x1024-1000x1000.jpg"  height="250px" width="200px">
+            <p>brown Shirt</p>
+        </div>
+        <div class="product-box">
+            <img src="https://assets.ajio.com/medias/sys_master/root/20220519/0dCE/6285a9f6f997dd03e2ed4952/-473Wx593H-441209445-ltblue-MODEL2.jpg"  height="250px" width="200px">
+            <p>blue Shirt</p>
+        </div>
+        <div class="product-box">
+            <img src="https://assets.myntassets.com/h_200,w_200,c_fill,g_auto/h_1440,q_100,w_1080/v1/assets/images/19294964/2022/7/29/b2d6dc7e-603e-46e6-9846-1c197f30217b1659080421826VanHeusenSportMenGreenSlimFitCasualShirt1.jpg"  height="250px" width="200px">
+            <p>green Shirt</p>
+        </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box">
+                <h2 class="headingText">Dress Verve</Var></h2>
+                <p>Elevate your style with our unique, elegant dress collection</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color:#ffffff"></i>
+                    <i class="fa-brands fa-twitter"  style="color:#ffffff"></i>
+                    <i class="fa-brands fa-facebook"  style="color:#ffffff"></i>
+    
+                </div>
+            </div>
+        </div>
+        <p>@ 2024Dressverve.com</p>
+    </div>
+</body>
+
+</html>
